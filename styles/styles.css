@@ -64,3 +64,35 @@ nav ul li a{
     margin-top: 24px;
 }
 /* Feature Section Styles */
+.feature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 85px;
+}
+
+
+.img-container div{
+display: flex;
+gap: 20px;
+padding: 10px 0;
+}
+.img-container div img{
+    width: 180px;
+    height: 180px;
+}
+
+.feature-text-sec{
+width: 380px;
+}
+.feature-text-sec h2{
+    font-size: 32px;
+    
+    color: #FF900E;
+}
+.feature-text-sec p{
+    font-size: 16px;
+    color: #727272;
+    padding-top: 32px;
+}
