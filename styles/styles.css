@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,49 +6,56 @@
 }
 
 /* Nav styles */
-nav{
+nav {
     display: flex;
     gap: 573px;
     justify-content: center;
     padding-top: 20px;
-    color:#131313;
+    color: #131313;
 }
-nav ul{
+
+nav ul {
     display: flex;
     gap: 70px;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
 }
 
-nav ul li a{
+nav ul li a {
     color: #424242;
     text-decoration: none;
 }
-.background{
+
+.background {
     background-color: #FFF4E7;
     height: 950px;
 }
+
 /* Banner Styles */
-.banner{
+.banner {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.banner-title{
+
+.banner-title {
     font-size: 60px;
     text-align: center;
     color: #131313;
     padding-top: 116px;
 }
-.banner-text{
+
+.banner-text {
     font-size: 16px;
     color: #727272;
     text-align: center;
     width: 55%;
     padding-top: 24px;
 }
-.btn{
+
+.btn {
     color: white;
     background-color: #FF900E;
     padding: 20px 25px;
@@ -59,40 +66,117 @@ nav ul li a{
     margin-top: 24px;
     cursor: pointer;
 }
-.banner .banner-img{
-    width: 60%;
+
+.banner .banner-img {
+    width: 80%;
     margin-top: 24px;
 }
+
 /* Feature Section Styles */
-.feature{
+.feature {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
-    margin-top: 85px;
+    margin-top: 185px;
 }
 
 
-.img-container div{
-display: flex;
-gap: 20px;
-padding: 10px 0;
-}
-.img-container div img{
-    width: 180px;
-    height: 180px;
+.img-container div {
+    display: flex;
+    gap: 20px;
+    padding: 10px 0;
 }
 
-.feature-text-sec{
-width: 380px;
+.img-container div img {
+    width: 300px;
+    height: 300px;
 }
-.feature-text-sec h2{
+
+.feature-text-sec {
+    width: 420px;
+}
+
+.feature-text-sec h2 {
     font-size: 32px;
-    
+
     color: #FF900E;
 }
-.feature-text-sec p{
+
+.feature-text-sec p {
     font-size: 16px;
     color: #727272;
     padding-top: 32px;
+}
+
+/* lovable feature styles */
+.feature-love{
+    margin-top: 175px;
+}
+.feature-love .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 54px;
+}
+
+.feature-love .container div div div {
+    display: flex;
+    gap: 5px;
+}
+
+.feature-love .container div div div h1 {
+    font-size: 45px;
+    font-weight: 600;
+    width: 400px;
+}
+
+.feature-love .container div div div div {
+    height: 100px;
+    width: 3px;
+    background-color: #FF900E;
+}
+
+.feature-love .container div p {
+    color: #727272;
+    padding-top: 24px;
+    width: 586px;
+}
+
+.feature-love .container div .feature-love-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+    width: 586px;
+    height: 141px;
+    background-color: white;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+.feature-love .container div div p {
+    width: 566px;
+    padding-top: 16px;
+}
+
+.feature-love .container img {
+    margin-top: -150px;
+    width: 508px;
+    height: 782px;
+}
+.feature-btn{
+    background-color: #FF900E;
+    color: white;
+    padding: 10px 20px;
+    font-size: 45px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    margin-left: 53%;
+    position: absolute;
+    margin-top: -150px;
+    line-height: 40px;
 }
