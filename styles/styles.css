@@ -78,7 +78,7 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    margin-top: 185px;
+    padding-top: 185px;
 }
 
 
@@ -126,6 +126,7 @@ nav ul li a {
 }
 
 .feature-love .container div div div h1 {
+    padding-left: 20px;
     font-size: 45px;
     font-weight: 600;
     width: 400px;
@@ -179,4 +180,37 @@ nav ul li a {
     position: absolute;
     margin-top: -150px;
     line-height: 40px;
+}
+/* Fact Styles */
+.fact{
+    margin-top: 175px;   
+}
+.fact .container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+.fact .container div{
+    text-align: center;
+    padding: 50px;
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+}
+
+.fact .container div i{
+    font-size: 20px;
+    padding-left: 10px;
+}
+.fact .container div p{
+    font-size: 20px;
+}
+.fact h1{
+    font-size: 45px;
+    margin-left: 8%;
+}
+.fact p{
+    font-size: 16px;
+    margin-left: 8%;
+    padding-top: 20px;
 }
