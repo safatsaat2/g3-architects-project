@@ -138,7 +138,7 @@ nav ul li a {
     background-color: #FF900E;
 }
 
-.feature-love .container div p {
+.feature-love .container div .brief {
     color: #727272;
     padding-top: 24px;
     width: 586px;
@@ -196,6 +196,12 @@ nav ul li a {
     padding: 50px;
     border: 1px solid #FF900E;
     border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+.fact .container div:hover{
+    background-color: #FF900E;
+    margin-bottom: 20px;
 }
 
 .fact .container div i{
@@ -215,6 +221,9 @@ nav ul li a {
     padding-top: 20px;
 }
 /* sponsor styles */
+.sponsor{
+    margin-top: 150px;
+}
 .sponsor .h-p-container{
     display: flex;
     flex-direction: column;
@@ -237,3 +246,189 @@ nav ul li a {
     margin-top: 50px;
 }
 /* footer styles */
+.footer{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.footer .container{
+    background-color: #FFF4E7;
+    height: 100px;
+    width:80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.footer .container p{
+    font-size: 20px;
+}
+
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 20px;
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .background {
+        margin: 0;
+        width: 100%;
+        height: 700px;
+    }
+    .banner-title {
+        font-size: 20px;
+        padding-top: 50px;
+    }
+    .banner-text {
+        font-size: 12px;
+        width: 50%;
+        padding-top: 16px;
+    }
+    .btn {
+        padding: 10px 15px;
+        border: 0;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 16px;
+        cursor: pointer;
+    }
+    /* feature section */
+    .feature {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding-top: 100px;
+    }
+    .img-container div {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 10px 0;
+    }
+    .img-container div img{
+        width: 80%;
+    }
+    .feature-text-sec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .feature-text-sec h2{
+        font-size: 22px;
+    }
+    .feature-text-sec p{
+        width: 80%;
+        text-align: center;
+    }
+    /* feature lovable */
+    .feature-love{
+        margin-top: 100px;
+    }
+    .feature-love .container div div div h1{
+        font-size: 30px;
+    }
+    .feature-love .container div div div div{
+        height: 70px;
+    }
+    .feature-love .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 54px;
+    }
+    .feature-love .container div div div {
+        display: flex;
+        gap: 5px;
+        margin-left: 30px;
+    }
+    .feature-love .container div .feature-love-sec{
+        margin-left: 60px;
+        width: 70%;
+        height: 200px;
+    }
+    .feature-love .container div h3{
+        padding-top: 20px;
+    }
+  .feature-love .container div .brief{
+        width: 70%;
+        margin-left: 60px;
+
+    }
+    .feature-love .container div div p {
+        width: 80%;
+    }
+    .feature-love .container img {
+        margin-top: 20px;
+        width: 80%;
+        height: 582px;
+    }
+    .feature-btn{
+        margin-top: -50px;
+    }
+    /* fact */
+    .fact{
+        margin-top: 100px;
+    }
+    .fact .container{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 35px;
+    }
+    .fact .container div{
+        padding: 20px;
+    }
+    .fact .container div i{
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    .fact .container div p{
+        font-size: 20px;
+    }
+    .fact h1{
+        font-size: 30px;
+        margin-left: 8%;
+        text-align: center;
+    }
+    .fact p{
+        text-align: center;
+        margin-left: 8%;
+        width: 300px;
+    }
+    /* Sponsor */
+    .sponsor{
+        margin-top: 100px;
+    }
+    .sponsor .h-p-container .sponsor-title{
+        font-size: 30px;
+    }
+    .sponsor div .sponsor-brief{
+        width: 300px;
+    }
+    .sponsor .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sponsor .container img{
+        width: 200px;
+        height: 50px;
+    }
+    /* footer */
+    .footer{
+        margin-top: 100px;
+    }
+    .footer .container p{
+        text-align: center;
+    }
+}
