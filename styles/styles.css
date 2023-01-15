@@ -214,3 +214,26 @@ nav ul li a {
     margin-left: 8%;
     padding-top: 20px;
 }
+/* sponsor styles */
+.sponsor .h-p-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.sponsor .h-p-container .sponsor-title{
+    font-size: 45px;
+}
+.sponsor div .sponsor-brief{
+    width: 50%;
+    font-size: 16px;
+    padding-top: 20px;
+}
+.sponsor .container{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 50px;
+}
+/* footer styles */
